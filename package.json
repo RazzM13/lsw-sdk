@@ -1,0 +1,32 @@
+{
+  "name": "lsw-sdk",
+  "version": "1.0.0",
+  "description": "LSW SDK",
+  "main": "out/index.js",
+  "scripts": {
+    "test": "build && jest",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/types": "^7.4.0",
+    "@types/base64-js": "^1.2.5",
+    "@types/feathersjs__feathers": "^3.1.2",
+    "@types/feathersjs__rest-client": "^1.3.2",
+    "@types/node": "^11.13.4",
+    "@types/request": "^2.48.1",
+    "@types/superagent": "^4.1.1",
+    "parcel": "^1.12.3",
+    "parcel-bundler": "^1.12.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.2"
+  },
+  "dependencies": {
+    "@feathersjs/errors": "^3.3.6",
+    "@feathersjs/feathers": "^3.3.1",
+    "@feathersjs/rest-client": "^1.4.7",
+    "base64-js": "^1.3.0",
+    "superagent": "^5.0.2"
+  }
+}
